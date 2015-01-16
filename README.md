@@ -10,5 +10,5 @@ This file explains how to run the R script for the "getting and cleaning data" c
     * 68 values in each row - activity & subject plus 66 mean values
 
 
-CodeBook.md contains more information about the output data and how it is generated.
+CodeBook.md contains more information about the output data.
 
