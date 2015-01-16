@@ -40,7 +40,8 @@ Data fields, the mean values for all samples whose names contain the words "mean
  30. tBodyGyroJerk_std_Z
  31. tBodyAccMag_mean
  32. tBodyAccMag_std
- 33. tGravityAccMag_meantGravityAccMag_std
+ 33. tGravityAccMag_meant
+ 34. GravityAccMag_std
  34. tBodyAccJerkMag_mean
  35. tBodyAccJerkMag_std
  36. tBodyGyroMag_mean
