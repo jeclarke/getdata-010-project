@@ -5,7 +5,7 @@ The fields in averages.txt are:
 
 Group fields, the other data points are aggregated over all the samples for this activity/subject combination
  1. Group.label - the activity label this record contains data for
- 2. Group.subject - the subject (person) this record contains data
+ 2. Group.subject - the subject (person) this record contains data for
 
 Data fields, the mean values for all samples whose names contain the words "mean" or "std" for the given activty/subject combination. Refer to the documentation in the source dataset to understand these fields. These fields are:
  3. tBodyAcc_mean_X
@@ -74,3 +74,13 @@ Data fields, the mean values for all samples whose names contain the words "mean
  63. fBodyBodyGyroMag_std
  64. fBodyBodyGyroJerkMag_mean
  65. fBodyBodyGyroJerkMag_std
+
+# Study Design
+Refer to README.txt in the source dataset for methodology on the original data collection.
+The result data set for this project was formed by
+ 1. merging the "training" and "test" sub sets from
+ 2. selecting only fields containing the (whole) words "std" or "mean"
+ 3. averaging each column grouped by activity and subject
+
+# Cleaning Up the Data
+The field names had brackets "()" removed and "-" replaced with underscore to allow easier use within R
