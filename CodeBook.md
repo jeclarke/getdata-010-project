@@ -78,9 +78,11 @@ Data fields, the mean values for all samples whose names contain the words "mean
 # Study Design
 Refer to README.txt in the source dataset for methodology on the original data collection.
 The result data set for this project was formed by
- 1. merging the "training" and "test" sub sets from
+ 1. merging the "training" and "test" sub sets from test/X_test.txt and "train/X_train.txt
  2. selecting only fields containing the (whole) words "std" or "mean"
- 3. averaging each column grouped by activity and subject
+ 3. appending activity labels for each sample from the y_test.txt and y_train.txt files using values from activity_labels.txt to assign readable names
+ 4. appending subject IDs for each sample from test/subject_test.txt and train/subject_train.txt
+ 5. averaging each column grouped by activity and subject
 
 # Cleaning Up the Data
-The field names had brackets "()" removed and "-" replaced with underscore to allow easier use within R
+The field names from the sample files had brackets "()" removed and "-" replaced with underscore to allow easier use within R
