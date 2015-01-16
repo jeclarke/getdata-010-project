@@ -1,13 +1,13 @@
 This file describes the variables, the data, and any transformations or work that I performed to clean up the data
 
 # Code Book
-The fields in averages.txt are:
+The fields in the output data set "averages.txt" are:
 
 Group fields, the other data points are aggregated over all the samples for this activity/subject combination
  1. Group.label - the activity label this record contains data for
  2. Group.subject - the subject (person) this record contains data for
 
-Data fields, the mean values for all samples whose names contain the words "mean" or "std" for the given activty/subject combination. Refer to the documentation in the source dataset to understand these fields. These fields are:
+Data fields, the mean values over all samples for the given activty/subject combination:
  3. tBodyAcc_mean_X
  2. tBodyAcc_mean_Y
  3. tBodyAcc_mean_Z
