@@ -8,7 +8,9 @@ This file explains how to run the R script for the "getting and cleaning data" c
 4. The output is written to averages.txt. There should be:
     * 181 rows - 6 activites for 30 subjects plus the 1st row with column names
     * 68 values in each row - activity & subject plus 66 mean values
+    * CodeBook.md contains more information about the output data
+
+Note: run_analysis.R take no parameters but it does contain some file paths at the top of the file that can be changed if alternate paths are required.
 
 
-CodeBook.md contains more information about the output data.
 
