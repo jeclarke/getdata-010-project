@@ -8,7 +8,7 @@ Group fields, the other data points are aggregated over all the samples for this
  2. Group.subject - the subject (person) this record contains data
 
 Data fields, the mean values for all samples whose names contain the words "mean" or "std" for the given activty/subject combination. Refer to the documentation in the source dataset to understand these fields. These fields are:
- 1. tBodyAcc_mean_X
+ 3. tBodyAcc_mean_X
  2. tBodyAcc_mean_Y
  3. tBodyAcc_mean_Z
  4. tBodyAcc_std_X
